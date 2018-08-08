@@ -7,9 +7,30 @@ import static org.junit.Assert.assertEquals;
 
 public class PrimeWordUnitTest {
 
-    //Use some prime word with known number sum
+
+    //Prime word, correct number
     private static final String WORD = "Robson";
     private static final int WORD_NUMBER = 109;
+
+    //Prime word, not correct number
+    /*private static final String WORD = "Robson";
+    private static final int WORD_NUMBER = 115;*/
+
+    //Not prime word, correct number
+   /* private static final String WORD = "Mauro";
+    private static final int WORD_NUMBER = 94;*/
+
+    //Not prime word, not correct number
+    /*private static final String WORD = "Mauro";
+    private static final int WORD_NUMBER = 100;*/
+
+    /*//Extense word
+    private static final String WORD = "Pneumonoultramicroscopicsilicovolcanoconiosis";
+    private static final int WORD_NUMBER = 586;*/
+
+    //Input with space
+    /*private static final String WORD = "Robson Barreto";
+    private static final int WORD_NUMBER = 214;*/
 
     @Test
     public void wordNumberIsCorrect() {
