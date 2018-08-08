@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PalavraPrima</string>
+    <string name="btn_verify">Verificar</string>
+    <string name="edt_word">Digite uma palavra</string>
+    <string name="prime_word">Essa palavra é prima!</string>
+    <string name="not_prime_word">Essa palavra não é prima!</string>
+</resources>
